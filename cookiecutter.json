@@ -1,0 +1,30 @@
+{
+  "author_name": "Your name",
+  "company": "Hadenlabs",
+  "docker_hub_user": "luismayta",
+  "domain_repository": "https://github.com",
+  "email": "slovacus@gmail.com",
+  "full_name": "Luis Mayta",
+  "group_name": "hadenlabs",
+  "open_source_license": [
+    "MIT license",
+    "BSD license",
+    "ISC license",
+    "Apache Software License 2.0",
+    "GNU General Public License v3",
+    "Not open source"
+  ],
+  "project_name": "project_name",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+  "release_date": "2019-11-17",
+  "repo_name": "tmux-name",
+  "repository": [
+    "github",
+    "bitbucket",
+    "gitlab"
+  ],
+  "short_description": "Tmux Plugin",
+  "tmux_name": "tmux",
+  "version": "0.0.0",
+  "year": "2019"
+}
